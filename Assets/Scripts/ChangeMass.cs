@@ -6,7 +6,7 @@ public class ChangeMass : MonoBehaviour
 {
     private void MassChange()
     {
-        GetComponent<Rigidbody>().mass = Random.Range(0f, 10f);
+        GetComponent<Rigidbody>().mass = Random.Range(5f, 10f);
     }
     private void OnCollisionEnter(Collision collision)
     {
